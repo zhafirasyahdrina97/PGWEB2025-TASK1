@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acara 1 | HTML CSS</title>
+
+  <!-- Import Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      margin: 20px;
+    }
+
+    .card {
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .pink {
+      background-color: #ffd6eb;
+    }
+
+    .orange {
+      background-color: #ffe0b3;
+    }
+
+    .blue {
+      background-color: #d6ecff;
+    }
+
+    h1 {
+      margin: 0;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    h3 {
+      text-align: center;
+      margin-top: 5px;
+      font-weight: 400;
+    }
+
+    h4 {
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      background-color: #fff;
+    }
+
+    th,
+    td {
+      border: 1px solid #333;
+      text-align: center;
+      padding: 8px;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #f5b7b1;
+      font-weight: 500;
+    }
+
+    /* striped rows */
+    tr:nth-child(even) td {
+      background-color: #fdf2f8;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Title -->
+  <div class="card pink">
+  <img src="tokyo.jpg" 
+       alt="Tokyo Tower" 
+       style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 10px;">
+  <h1>Tokyo City</h1>
+  <h3>The Capital of Japan</h3>
+</div>
+
+
+  <!-- Description -->
+  <div class="card orange">
+    <p>Tokyo is the capital city of Japan and the largest metropolitan area in the world, with a population of more
+      than 14 million people in the city proper and over 37 million in the Greater Tokyo Area. It is located on
+      the eastern coast of Honshu Island and serves as the political, economic, and cultural center of the
+      country. Tokyo is well known for its impressive skyline filled with modern skyscrapers, advanced
+      transportation systems, and cutting-edge technology.</p>
+    <p>At the same time, the city preserves its traditional charm through historic temples, shrines, and
+      neighborhoods such as Asakusa and Ueno. Tokyo is also a global hub for fashion, entertainment, and culinary
+      experiences, offering everything from Michelin-star restaurants to street food. With its mix of tradition
+      and modernity, Tokyo represents the dynamic spirit of Japan and continues to attract millions of tourists
+      every year.</p>
+  </div>
+
+  <!-- Population Table -->
+  <div class="card blue">
+    <h4>Population</h4>
+    <table>
+      <tr>
+        <th>No</th>
+        <th>Year</th>
+        <th>Population</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2020</td>
+        <td>13.96 million</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2023</td>
+        <td>14.05 million</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Wards List -->
+  <div class="card pink">
+    <h4>Wards</h4>
+    <table>
+      <tr>
+        <td>1. Adachi</td>
+        <td>9. Kita</td>
+        <td>17. Shibuya</td>
+      </tr>
+      <tr>
+        <td>2. Arakawa</td>
+        <td>10. Koto</td>
+        <td>18. Shinagawa</td>
+      </tr>
+      <tr>
+        <td>3. Bunkyo</td>
+        <td>11. Meguro</td>
+        <td>19. Shinjuku</td>
+      </tr>
+      <tr>
+        <td>4. Chiyoda</td>
+        <td>12. Minato</td>
+        <td>20. Suginami</td>
+      </tr>
+      <tr>
+        <td>5. Chuo</td>
+        <td>13. Nakano</td>
+        <td>21. Sumida</td>
+      </tr>
+      <tr>
+        <td>6. Edogawa</td>
+        <td>14. Nerima</td>
+        <td>22. Taito</td>
+      </tr>
+      <tr>
+        <td>7. Itabashi</td>
+        <td>15. Ota</td>
+        <td>23. Toshima</td>
+      </tr>
+      <tr>
+        <td>8. Katsushika</td>
+        <td>16. Setagaya</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
